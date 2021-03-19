@@ -56,7 +56,7 @@ class GenerateInclude extends Command
                 $this->info("Written to : " . $files);
             }
 
-            return;
+            return 0;
         }
 
         if ($langFiles) {
